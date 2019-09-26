@@ -15,6 +15,7 @@ rev=$(git rev-parse --short HEAD)
 REPONAME=`basename $PWD`
 PARENTDIR=`dirname $PWD`
 USERNAME=`basename $PARENTDIR`
+
 cd out
 
 git init
@@ -27,9 +28,18 @@ git reset upstream/gh-pages
 
 #touch .
 
+UPDATE=.
+
+if [ "$TRAVIS_BRANCH" != "master" ]
+then
+  UPDATE=./$TRAVIS_BRANCH
+fi
+
+
+
 ls
 git status
 
-git add -A .
+git add -A $UPDATE
 git commit -m "rebuild pages at ${rev}"
 git push -q upstream HEAD:gh-pages
