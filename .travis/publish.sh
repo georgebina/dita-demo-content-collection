@@ -95,7 +95,7 @@ echo "====================================="
 # Send some parameters to the "editlink" plugin as system properties
 export ANT_OPTS="$ANT_OPTS -Deditlink.remote.ditamap.url=github://getFileContent/$USERNAME/$REPONAME/$TRAVIS_BRANCH/Thunderbird/User_Guide.ditamap"
 # Send parameters for the Webhelp styling.
-export ANT_OPTS="$ANT_OPTS -Dwebhelp.fragment.welcome='$WELCOME to Thunderbird!'"
+export ANT_OPTS="$ANT_OPTS -Dwebhelp.fragment.welcome='$WELCOME'"
 
 #export ANT_OPTS="$ANT_OPTS -Dwebhelp.responsive.template.name=bootstrap" 
 #export ANT_OPTS="$ANT_OPTS -Dwebhelp.responsive.variant.name=tiles"
