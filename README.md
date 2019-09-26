@@ -3,6 +3,11 @@ Guide to Scenarios
 
 An introduction to the DITA demonstration collection and a description of the maps and scenarios provided.
 
+George Bina Updates
+-------------------
+
+I added publishing to GitHub Pages using Travis. Each `master`, `test` or `review-*` branch is published using *oXygen Webhelp Reponsive* transformation with **Edit** links at URLs like https://georgebina.github.io/dita-demo-content-collection/[BRANCH NAME]/ with the main page https://georgebina.github.io/dita-demo-content-collection/ redirecting to https://georgebina.github.io/dita-demo-content-collection/master/.
+
 Eliot Kimber Updates
 --------------------
 
