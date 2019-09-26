@@ -88,7 +88,7 @@ echo "..."
 
 
 echo "====================================="
-echo "Publish the style guide as WebHelp"
+echo "Publish the content as WebHelp"
 echo "====================================="
 
 
@@ -101,8 +101,17 @@ export ANT_OPTS="$ANT_OPTS -Dwebhelp.fragment.welcome='$WELCOME to Thunderbird!'
 #export ANT_OPTS="$ANT_OPTS -Dwebhelp.responsive.variant.name=tiles"
 export ANT_OPTS="$ANT_OPTS -Dwebhelp.publishing.template=dita-ot-2.5.2/plugins/com.oxygenxml.webhelp.responsive/templates/$TEMPLATE/$TEMPLATE-$VARIANT.opt"
 
-dita-ot-2.5.2/bin/dita -i Thunderbird/User_Guide.ditamap -f webhelp-responsive -o out
+
+OUT=out
+
+if [ "$TRAVIS_BRANCH" != "master" ]
+then
+  OUT=out/$TRAVIS_BRANCH
+  FOLDER=/$TRAVIS_BRANCH
+fi
+
+dita-ot-2.5.2/bin/dita -i Thunderbird/User_Guide.ditamap -f webhelp-responsive -o $OUT
 echo "====================================="
-echo "index.html"
+echo "https://$USERNAME.github.io/$REPONAME$FOLDER/index.html"
 echo "====================================="
-cat out/index.html
+cat $OUT/index.html
