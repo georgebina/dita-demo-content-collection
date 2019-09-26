@@ -102,13 +102,8 @@ export ANT_OPTS="$ANT_OPTS -Dwebhelp.fragment.welcome='$WELCOME'"
 export ANT_OPTS="$ANT_OPTS -Dwebhelp.publishing.template=dita-ot-2.5.2/plugins/com.oxygenxml.webhelp.responsive/templates/$TEMPLATE/$TEMPLATE-$VARIANT.opt"
 
 
-OUT=out
-
-if [ "$TRAVIS_BRANCH" != "master" ]
-then
-  OUT=out/$TRAVIS_BRANCH
-  FOLDER=/$TRAVIS_BRANCH
-fi
+OUT=out/$TRAVIS_BRANCH
+FOLDER=/$TRAVIS_BRANCH
 
 dita-ot-2.5.2/bin/dita -i Thunderbird/User_Guide.ditamap -f webhelp-responsive -o $OUT
 echo "====================================="

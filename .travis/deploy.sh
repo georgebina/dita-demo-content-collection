@@ -28,14 +28,7 @@ git reset upstream/gh-pages
 
 #touch .
 
-UPDATE=.
-
-if [ "$TRAVIS_BRANCH" != "master" ]
-then
-  UPDATE=./$TRAVIS_BRANCH
-fi
-
-
+UPDATE=./$TRAVIS_BRANCH
 
 ls
 git status
