@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<?xml-model href="https://georgebina.github.io/dita-demo-content-collection/rules/rules.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <task id="v2342342">
     <title>Configuring memory settings</title>
     <shortdesc> Configure the memory settings to monitor memory usage and control jobs.</shortdesc>

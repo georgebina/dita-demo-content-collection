@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Composite//EN" "ditabase.dtd">
+<?xml-model href="https://georgebina.github.io/dita-demo-content-collection/rules/rules.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
   <topic id="mobileview_FAQ"> 
 	 <title>Frequently Asked Questions</title> 

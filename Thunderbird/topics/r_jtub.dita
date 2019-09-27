@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<?xml-model href="https://georgebina.github.io/dita-demo-content-collection/rules/rules.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <reference id="referenceId">
   <title>Command: jtub</title>
   <shortdesc>Specifies the <cmdname>jtub</cmdname> and lists the options for the job configuration

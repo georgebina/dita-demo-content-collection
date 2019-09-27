@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<?xml-model href="https://georgebina.github.io/dita-demo-content-collection/rules/rules.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <reference id="v34r930234">
   <title>statclusters</title>
   <shortdesc>Displays information and current status for the submission cluster and all configured

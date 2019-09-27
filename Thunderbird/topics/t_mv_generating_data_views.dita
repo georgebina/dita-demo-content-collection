@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<?xml-model href="https://georgebina.github.io/dita-demo-content-collection/rules/rules.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <task id="t_mv_generating_data_views" xml:lang="en-us">
     <title>Generating data views</title>
     <shortdesc>To analyze your data and generate a data view, you must set the query filters, and then

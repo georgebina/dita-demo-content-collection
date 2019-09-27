@@ -7,6 +7,7 @@
 <!-- End Document Specific Declarations -->
 
 ]>
+<?xml-model href="https://georgebina.github.io/dita-demo-content-collection/rules/rules.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
 
 <reference id = "i740893"><title>Faulty physical drive</title>

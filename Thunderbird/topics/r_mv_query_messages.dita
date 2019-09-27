@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<?xml-model href="https://georgebina.github.io/dita-demo-content-collection/rules/rules.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <reference xml:lang="en-us" id="t_mv_query_filter_warning_messages">
  <title>Query warning messages</title>
  <shortdesc>When you are generating a data view or analyzing entities, you must use filters to

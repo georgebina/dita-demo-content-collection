@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Composite//EN" "ditabase.dtd">
+<?xml-model href="https://georgebina.github.io/dita-demo-content-collection/rules/rules.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <reference xml:lang="en-us" id="r_mv_query_filters">
     <title>Query filters</title>
     <shortdesc>Before generating a data view, you must filter your query. This section lists the query

@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd"><task xml:lang="en-us" id="T_SC_TroubleshootingEntities">
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<?xml-model href="https://georgebina.github.io/dita-demo-content-collection/rules/rules.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<task xml:lang="en-us" id="T_SC_TroubleshootingEntities">
   <title>Troubleshooting cluster reporting problems</title>
   <shortdesc>You can troubleshoot clusters using the <uicontrol>Diagnostic</uicontrol> tool.</shortdesc>
   <prolog>

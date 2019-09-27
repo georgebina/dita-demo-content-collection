@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<?xml-model href="https://georgebina.github.io/dita-demo-content-collection/rules/rules.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <concept id="c_mv_managing_messages"> 
   <title>Messaging Overview</title> 
   <shortdesc>Receiving and sending messages and notifications. 

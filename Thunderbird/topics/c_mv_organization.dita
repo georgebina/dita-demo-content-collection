@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Composite//EN" "ditabase.dtd">
+<?xml-model href="https://georgebina.github.io/dita-demo-content-collection/rules/rules.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <concept xml:lang="en-us" id="c_mv_organization">
     <title>How <term conkeyref="r_productname_variables/ph_enduser"/> is organized</title>
     <shortdesc><term conkeyref="r_productname_variables/ph_enduser"/> is organized

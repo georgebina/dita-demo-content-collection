@@ -7,6 +7,7 @@
 <!-- End Document Specific Declarations -->
 
 ]>
+<?xml-model href="https://georgebina.github.io/dita-demo-content-collection/rules/rules.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
 <task id = "i713528"><title>Registering a resource</title>
     <shortdesc>Add a new resource file to encapsulate and copy packets. </shortdesc>

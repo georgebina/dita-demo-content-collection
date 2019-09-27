@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<?xml-model href="https://georgebina.github.io/dita-demo-content-collection/rules/rules.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <concept id="c_mv_performance_tab" xml:lang="en-us">
  <title>System diagnostics</title>
  <shortdesc>View analysis of cluster status and performance. The data views will indicate whether

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Composite//EN" "ditabase.dtd">
+<?xml-model href="https://georgebina.github.io/dita-demo-content-collection/rules/rules.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <reference xml:lang="en-us" id="r_mv_report_columns">
     <title>Analysis pane columns</title>
     <shortdesc>The results of your investigation or maintenance query are listed in the <term

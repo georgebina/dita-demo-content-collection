@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<?xml-model href="https://georgebina.github.io/dita-demo-content-collection/rules/rules.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <reference id="reference_C06313BF166040BA9C8C4C15D553C8EF"> 
   <title>System notifications</title> 
   <shortdesc>Notifications regarding cluster activity.</shortdesc>

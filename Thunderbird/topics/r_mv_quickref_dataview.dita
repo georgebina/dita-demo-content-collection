@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<?xml-model href="https://georgebina.github.io/dita-demo-content-collection/rules/rules.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <reference id="r_mv_quickref_dataview_widget"> 
   <title>Quick reference: data views</title> 
   <shortdesc>Use the data views to see different metrics about your project.</shortdesc>

@@ -1,4 +1,5 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<?xml-model href="https://georgebina.github.io/dita-demo-content-collection/rules/rules.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <task id="t_mv_logging_on" xml:lang="en-us">
     <title>Logging on to <term conkeyref="r_productname_variables/ph_enduser"/></title>
     <shortdesc>To log on to <term conkeyref="r_productname_variables/ph_enduser"/>,
