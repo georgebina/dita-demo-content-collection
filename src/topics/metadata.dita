@@ -6,12 +6,12 @@
     <body>
 		<section id="section_shc_vwk_p2b">
 			<title>Index terms</title>
-			<p>Index terms should not start with the product name, for example if the product name is oXygen
-				or SyncroSoft, do not use </p>
+			<p>Index terms should not start with the product name, for example if the product name is
+				Thunderbird</p>
 		</section>
-		<example>oxygen validation</example>
+		<example>thunderbird cluster</example>
 		<p>as index term, use simply </p>
-		<example>validation</example>
+		<example>cluster</example>
 		<p>without mentioning the product name because that will not be relevant, as the product is
 			already the context for the index term.</p>
 		<p>
@@ -26,11 +26,11 @@
 				</dlentry>
 				<dlentry>
 					<dt>word</dt>
-					<dd>oXygen</dd>
+					<dd>thunderbird</dd>
 				</dlentry>
 				<dlentry>
 					<dt>message</dt>
-					<dd>Do not use oXygen in index terms!</dd>
+					<dd>Do not use 'thunderbird' in index terms!</dd>
 				</dlentry>
 			</dl>
 		</p>
@@ -66,7 +66,7 @@
 					</dlentry>
 				</dl>
 			</p>
-			<p>Short descriptions should be less than 20 words and also less than 160 characters so we can
+			<p>Short descriptions should be less than 20 words and also less than 140 characters so we can
 				use them easily with twitter.</p>
 			<p>
 				<dl audience="rules">
@@ -84,7 +84,7 @@
 					</dlentry>
 					<dlentry>
 						<dt>maxChars</dt>
-						<dd>160</dd>
+						<dd>140</dd>
 					</dlentry>
 					<dlentry>
 						<dt>normalize</dt>
@@ -92,7 +92,7 @@
 					</dlentry>
 					<dlentry>
 						<dt>message</dt>
-						<dd>Short deascription shopuld be used on twitter so we need to keep them less than 160
+						<dd>Short description should be used on twitter so we need to keep them less than 140
 							characters.</dd>
 					</dlentry>
 				</dl>
