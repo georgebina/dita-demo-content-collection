@@ -87,7 +87,7 @@ head -n 10 extract.log
 echo "..."
 
 ##########################################
-if [[ "$TRAVIS_BRANCH" == "styleguide" ]]  
+if [ "$TRAVIS_BRANCH" = "styleguide" ]  
 then
 
 echo "====================================="
