@@ -4,7 +4,7 @@ echo "Deploy $TRAVIS_BRANCH !"
 
 set -o errexit -o nounset
 
-if [[ "$TRAVIS_BRANCH" != "master" ]] && [[ "$TRAVIS_BRANCH" != "review-*" ]] && [[ "$TRAVIS_BRANCH" != "test" ]] 
+if [[ "$TRAVIS_BRANCH" != "master" ]] && [[ "$TRAVIS_BRANCH" != "review-*" ]] && [[ "$TRAVIS_BRANCH" != "test" ]] && [[ "$TRAVIS_BRANCH" != "styleguide" ]] 
 then
   echo "This commit was made against the $TRAVIS_BRANCH and not the 'master', 'test' or 'review-*' branch! No deploy!"
   exit 0

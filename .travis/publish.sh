@@ -86,6 +86,54 @@ unzip SaxonHE9-9-0-1J.zip -d saxon9/ >> extract.log 2>>extract.log
 head -n 10 extract.log
 echo "..."
 
+##########################################
+if [[ "$TRAVIS_BRANCH" == "styleguide" ]]  
+then
+
+echo "====================================="
+echo "generate Schematron rules"
+echo "====================================="
+java -cp saxon9/saxon9he.jar:dita-ot-2.5.2/lib/xml-resolver-1.2.jar net.sf.saxon.Transform -s:src/styleguide.ditamap -xsl:src/rules/extractRules.xsl -catalog:dita-ot-2.5.2/catalog-dita.xml publishedBaseURL=http://$USERNAME.github.io/$REPONAME/styleguide/
+
+head -n 10 src/rules/rules.sch
+echo "..."
+
+
+mkdir -p out/rules
+cp src/rules/blockElements.xml out/rules/blockElements.xml
+cp src/rules/library.sch out/rules/library.sch
+cp src/rules/quickFix-library.xml out/rules/quickFix-library.xml
+cp src/rules/rules.sch out/rules/rules.sch
+
+
+echo "====================================="
+echo "Publish the style guide as WebHelp"
+echo "====================================="
+
+# Send some parameters to the "editlink" plugin as system properties
+export ANT_OPTS="$ANT_OPTS -Deditlink.remote.ditamap.url=github://getFileContent/$USERNAME/$REPONAME/$TRAVIS_BRANCH/src/styleguide.ditamap"
+# Send parameters for the Webhelp styling.
+export ANT_OPTS="$ANT_OPTS -Dwebhelp.fragment.welcome='$WELCOME'"
+
+#export ANT_OPTS="$ANT_OPTS -Dwebhelp.responsive.template.name=bootstrap" 
+#export ANT_OPTS="$ANT_OPTS -Dwebhelp.responsive.variant.name=tiles"
+export ANT_OPTS="$ANT_OPTS -Dwebhelp.publishing.template=dita-ot-2.5.2/plugins/com.oxygenxml.webhelp.responsive/templates/$TEMPLATE/$TEMPLATE-$VARIANT.opt"
+
+OUT=out/$TRAVIS_BRANCH
+FOLDER=/$TRAVIS_BRANCH
+
+dita-ot-2.5.2/bin/dita -i src/styleguide.ditamap -f webhelp-responsive -o $OUT
+
+echo "====================================="
+echo "https://$USERNAME.github.io/$REPONAME$FOLDER/index.html"
+echo "====================================="
+cat $OUT/index.html
+
+fi
+
+##########################################
+if [[ "$TRAVIS_BRANCH" != "styleguide" ]]  
+then
 
 echo "====================================="
 echo "Publish the content as WebHelp"
@@ -110,3 +158,5 @@ echo "====================================="
 echo "https://$USERNAME.github.io/$REPONAME$FOLDER/index.html"
 echo "====================================="
 cat $OUT/index.html
+
+fi
