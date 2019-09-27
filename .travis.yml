@@ -1,0 +1,16 @@
+language: xslt
+install:
+- echo "Installed"
+script:
+- sh .travis/publish.sh
+after_success:
+- sh .travis/deploy.sh
+env:
+  global:
+  - TITLE="Thunderbird Style Guide"
+  - WELCOME="Welcome to Thunderbird Style Guide!"
+  - TEMPLATE="green"
+  - VARIANT="tiles"
+notifications:
+  email:
+on_success: always
