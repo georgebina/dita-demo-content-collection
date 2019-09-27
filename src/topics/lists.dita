@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<?xml-stylesheet type="text/css" href="../../frameworks/styleguide/css/styleguideActions.css"?>
+<topic id="topic_yrp_jwk_p2b">
+    <title>Lists</title>
+    <body>
+		<section id="section_shc_vwk_p2b">
+			<title>Ending list items</title>
+			<p>List items should not end with semi-colon. If it is something short leave it without a
+				punctuation mark, otherwise you can end it with the normal sentence ending, for
+				example a full stop.</p>
+			<p>
+				<dl audience="rules">
+					<dlhead>
+						<dthd>Rule</dthd>
+						<ddhd>avoidEndFragment</ddhd>
+					</dlhead>
+					<dlentry>
+						<dt>element</dt>
+						<dd>li</dd>
+					</dlentry>
+					<dlentry>
+						<dt>fragment</dt>
+						<dd>;</dd>
+					</dlentry>
+					<dlentry>
+						<dt>message</dt>
+						<dd>List items should not end with semi-colon</dd>
+					</dlentry>
+				</dl>
+			</p>
+		</section>
+		<section id="section_svm_5wk_p2b">
+			<title>Number of items</title>
+			<p>A list should contain more than 2 items and no more than 8 items.</p>
+			<p>
+				<dl audience="rules">
+					<dlhead>
+						<dthd>Rule</dthd>
+						<ddhd>restrictNumberOfChildren</ddhd>
+					</dlhead>
+					<dlentry>
+						<dt>parentElement</dt>
+						<dd>ul</dd>
+					</dlentry>
+					<dlentry>
+						<dt>element</dt>
+						<dd>li</dd>
+					</dlentry>
+					<dlentry>
+						<dt>min</dt>
+						<dd>2</dd>
+					</dlentry>
+					<dlentry>
+						<dt>max</dt>
+						<dd>8</dd>
+					</dlentry>
+					<dlentry>
+						<dt>message</dt>
+						<dd>Message...</dd>
+					</dlentry>
+				</dl>
+			</p>
+		</section>
+    </body>
+</topic>
