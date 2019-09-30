@@ -132,7 +132,7 @@ cat $OUT/index.html
 fi
 
 ##########################################
-if [[ "$TRAVIS_BRANCH" != "styleguide" ]]  
+if [ $TRAVIS_BRANCH != "styleguide" ]  
 then
 
 echo "====================================="
