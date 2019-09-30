@@ -132,7 +132,7 @@ cat $OUT/index.html
 fi
 
 ##########################################
-if [ $TRAVIS_BRANCH != "styleguide" ]  
+if [ "$TRAVIS_BRANCH" != "styleguide" ]  
 then
 
 echo "====================================="
@@ -149,7 +149,7 @@ export ANT_OPTS="$ANT_OPTS -Dwebhelp.fragment.welcome='$WELCOME'"
 #export ANT_OPTS="$ANT_OPTS -Dwebhelp.responsive.variant.name=tiles"
 export ANT_OPTS="$ANT_OPTS -Dwebhelp.publishing.template=dita-ot-2.5.2/plugins/com.oxygenxml.webhelp.responsive/templates/$TEMPLATE/$TEMPLATE-$VARIANT.opt"
 
-if [[ $TRAVIS_BRANCH = review-* ]] 
+if [ "$TRAVIS_BRANCH" != "master" ] && [ "$TRAVIS_BRANCH" != "styleguide" ] && [ "$TRAVIS_BRANCH" != "test" ] 
 then
   export ANT_OPTS="$ANT_OPTS -Dwebhelp.show.changes.and.comments=yes"
 fi
