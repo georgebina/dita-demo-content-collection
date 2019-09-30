@@ -149,6 +149,11 @@ export ANT_OPTS="$ANT_OPTS -Dwebhelp.fragment.welcome='$WELCOME'"
 #export ANT_OPTS="$ANT_OPTS -Dwebhelp.responsive.variant.name=tiles"
 export ANT_OPTS="$ANT_OPTS -Dwebhelp.publishing.template=dita-ot-2.5.2/plugins/com.oxygenxml.webhelp.responsive/templates/$TEMPLATE/$TEMPLATE-$VARIANT.opt"
 
+if [[ $TRAVIS_BRANCH = review-* ]] 
+then
+  export ANT_OPTS="$ANT_OPTS -Dwebhelp.show.changes.and.comments=yes"
+fi
+
 
 OUT=out/$TRAVIS_BRANCH
 FOLDER=/$TRAVIS_BRANCH
