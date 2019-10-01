@@ -11,12 +11,14 @@
  <conbody>
   <section id="section_mtx_smc_rr">
    <p>The <term conkeyref="r_productname_variables/ph_companyname"/>
-    <term conkeyref="r_productname_variables/ph_prodname"/> computing management
-    solution combines powerful cluster management services with a simple-to-use, intuitive <term
-     conkeyref="r_productname_variables/ph_enduser"/> front-end application. The
-    combination places control of the full resources of your computing infrastructure into the hands
-    of your team members and it does so in a way the establishes, and sustains, the highest levels
-    of security. <fig>
+    <term conkeyref="r_productname_variables/ph_prodname"/> computing management solution combines
+    powerful cluster management services with a simple-to-use, intuitive <term
+     conkeyref="r_productname_variables/ph_enduser"/> front-end application. The combination places
+    control of the full resources of your computing infrastructure into the hands of your team
+    members and it does so in a way the establishes, and sustains, the highest levels of
+    security.</p>
+   <p>An image with the scale attribute set on it: <image href="../Images2/Architecture.png"
+     id="image_uh2_mkh_gjb" scale="75"/><fig id="fig_y4m_4kh_gjb">
      <image conkeyref="r_image_warehouse/image_f2g_mft_qr" id="image_zf4_pnc_rr"/>
     </fig></p>
   </section>  
