@@ -3,8 +3,8 @@
 <?xml-model href="https://georgebina.github.io/dita-demo-content-collection/rules/rules.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <concept id="conceptId">
  <title><term conkeyref="r_productname_variables/ph_companyname"/>
-  <term conkeyref="r_productname_variables/ph_prodname"/> features and
-  benefits</title>
+  <term conkeyref="r_productname_variables/ph_prodname"/> features and benefits GEORGE changed
+  this!!!</title>
  <shortdesc><term conkeyref="r_productname_variables/ph_prodname"/> components work
   together to give you the advanced cluster management and reporting capabilities that you need
   within a large computing environment.</shortdesc>
