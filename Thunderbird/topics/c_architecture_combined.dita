@@ -11,12 +11,13 @@
  <conbody>
   <section id="section_mtx_smc_rr">
    <p>The <term conkeyref="r_productname_variables/ph_companyname"/>
-    <term conkeyref="r_productname_variables/ph_prodname"/> computing management
-    solution combines powerful cluster management services with a simple-to-use, intuitive <term
-     conkeyref="r_productname_variables/ph_enduser"/> front-end application. The
-    combination places control of the full resources of your computing infrastructure into the hands
-    of your team members and it does so in a way the establishes, and sustains, the highest levels
-    of security. <fig>
+    <term conkeyref="r_productname_variables/ph_prodname"/> computing management solution combines
+    powerful cluster management services with a simple-to-use, intuitive <term
+     conkeyref="r_productname_variables/ph_enduser"/> front-end application. The combination places
+    control of the full resources of your computing infrastructure into the hands of
+    <?oxy_delete author="George Lewis" timestamp="20191107T110202+0000" content="your"?><?oxy_insert_start author="George Lewis" timestamp="20191107T110202+0000"?>this
+    is a change<?oxy_insert_end?> team members and it does so in a way the establishes, and
+    sustains, the highest levels of security. <fig>
      <image conkeyref="r_image_warehouse/image_f2g_mft_qr" id="image_zf4_pnc_rr"/>
     </fig></p>
   </section>  
@@ -88,3 +89,4 @@
   </section>
  </conbody>
 </concept>
+<?oxy_options track_changes="on"?>
