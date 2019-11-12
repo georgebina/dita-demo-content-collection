@@ -87,4 +87,14 @@
       <param name="message"
              value="Titles should have no more than 55 characters, otherwise they may be&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;rendered truncated."/>
    </pattern>
+   <!--Generated from topics/seo.dita.
+    -->
+   <pattern is-a="restrictCharacters"
+            see="http://georgebina.github.io/dita-demo-content-collection/styleguide/topics/seo.html">
+      <param name="parentElement" value="shortdesc"/>
+      <param name="minChars" value="1"/>
+      <param name="maxChars" value="164"/>
+      <param name="normalize" value="yes"/>
+      <param name="message" value="test..."/>
+   </pattern>
 </schema>
