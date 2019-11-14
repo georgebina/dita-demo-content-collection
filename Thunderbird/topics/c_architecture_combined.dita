@@ -3,7 +3,9 @@
 <?xml-model href="https://georgebina.github.io/dita-demo-content-collection/rules/rules.sch" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <concept id="conceptId">
  <title><term conkeyref="r_productname_variables/ph_companyname"/>
-  <term conkeyref="r_productname_variables/ph_prodname"/> features
+  <term conkeyref="r_productname_variables/ph_prodname"/>
+  features<?oxy_insert_start author="George Bina" timestamp="20191114T130549+0000"?> GEORGE AT
+  TEKOM<?oxy_insert_end?>
   and<?oxy_insert_start author="George Bina" timestamp="20190930T092720+0000"?> very
   important<?oxy_insert_end?> benefits</title>
  <shortdesc><term conkeyref="r_productname_variables/ph_prodname"/> components work
